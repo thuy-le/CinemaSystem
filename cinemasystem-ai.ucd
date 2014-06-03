@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="cinemasystem-ai" id="{UMLID=_Tb1GcNckEeG9DKrtT72onw,JavaID=cinemasystem}" metadata="uml2-1.0" initialized="true" scrolledX="946" tag="10" key="32303037303632392043696E656D61" Shrink="true">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.9/@sourceConnections.1" name="RoomModel" location="1862,266" size="132,30" timstampe="7" stereotype="" id="{UMLID=_YVUk8NckEeG9DKrtT72onw,JavaID=cinemasystem/RoomModel}" shortShow="true" runTimeClassModel="addRoom(LCollection;),rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZR8lQNckEeG9DKrtT72onw}" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_ZR8lQdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1879,303" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="86,10" id="{UMLID=_ZRIs8NckEeG9DKrtT72onw}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1633,365" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- rooms" location="1638,407" size="44,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="89.0" distanceFromWire="27.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y8ggwNckEeG9DKrtT72onw}" source="//@children.0" target="//@children.12" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="roomModel" location="0,10" id="{UMLID=_Y55RoNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1848,253" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ roomModel" location="1549,226" size="76,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-19.0" distanceFromWire="-42.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="113,30" id="{UMLID=_Y8ggwdckEeG9DKrtT72onw}" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1261,177" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5r2RNckEeG9DKrtT72onw}" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="roomModel" location="0,20" id="{UMLID=_Y20IcNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1848,293" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="roomModel" location="1791,263" size="64,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="146,0" id="{UMLID=_Y5r2RdckEeG9DKrtT72onw}" multiplicityLabel="//@children.0/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1391,641" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Zb-D8NckEeG9DKrtT72onw}" source="//@children.0" target="//@children.13" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="roomModel" location="10,30" id="{UMLID=_ZYbAsdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1858,303" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- roomModel" location="1879,303" size="72,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="122,10" id="{UMLID=_Zb-D8dckEeG9DKrtT72onw}" multiplicityLabel="//@children.0/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="847,385" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.1" name="RoomAdd" location="1340,50" size="117,30" timstampe="7" stereotype="" id="{UMLID=_YVVMAdckEeG9DKrtT72onw,JavaID=cinemasystem/RoomAdd}" shortShow="true" runTimeClassModel="update(Ljava.util.Observable;Ljava.lang.Object;),parentPanel,txt1,model,txt2,init(),RoomAdd(LCollection;Lcinemasystem.RoomModel;Lcinemasystem.RoomView;),rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZAOjItckEeG9DKrtT72onw}" source="//@children.1" target="//@children.12" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_ZAOjI9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1326,47" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="parentPanel" location="113,0" id="{UMLID=_Y-LUsdckEeG9DKrtT72onw}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1282,117" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ parentPanel" location="1187,117" size="81,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZAOjINckEeG9DKrtT72onw}" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="117,20" id="{UMLID=_ZAOjIdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1464,47" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="10,0" id="{UMLID=_Y-Mi0dckEeG9DKrtT72onw}" multiplicityLabel="//@children.1/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.1/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1858,243" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ model" location="1881,251" size="47,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="91.0" distanceFromWire="32.99999999999997" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZAN8ENckEeG9DKrtT72onw}" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="117,20" id="{UMLID=_ZAN8EdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1464,47" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="10,0" id="{UMLID=_Y-Nw8NckEeG9DKrtT72onw}" multiplicityLabel="//@children.1/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.1/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1523,355" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ rooms" location="1557,355" size="48,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.5/@sourceConnections.3 //@children.5/@sourceConnections.6 //@children.20/@sourceConnections.1 //@children.14/@sourceConnections.1" name="ShowingTime" location="546,694" size="145,30" timstampe="7" stereotype="" id="{UMLID=_YbT4M9ckEeG9DKrtT72onw,JavaID=cinemasystem/ShowingTime}" shortShow="true" runTimeClassModel="height,xRound,displayText,getPreferredSize(),width,yRound,ShowingTime(II),paint(Ljava.awt.Graphics;),y,toString(),x">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Yv62QNckEeG9DKrtT72onw}" source="//@children.2" target="//@children.16" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sTime" location="50,0" id="{UMLID=_Yr5R4tckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="582,671" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- sTime" location="600,661" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-48.0" distanceFromWire="-25.00000000000001" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="64,30" id="{UMLID=_Yv62QdckEeG9DKrtT72onw}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="603,555" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.13/@sourceConnections.2 //@children.20/@sourceConnections.5 //@children.10/@sourceConnections.1" name="MovieModel" location="1210,886" size="131,30" timstampe="7" stereotype="" id="{UMLID=_Ya8r0dckEeG9DKrtT72onw,JavaID=cinemasystem/MovieModel}" shortShow="true" runTimeClassModel="editMovie(ILjava.lang.String;ILCollection;LCollection;Ljava.lang.String;Lcinemasystem.MovieCategory;),getMovies(),deleteMovie(LCollection;I),movies,addMovie(LCollection;),setMovies(LCollection;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZIqtctckEeG9DKrtT72onw}" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="121,0" id="{UMLID=_ZEsMYdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1338,863" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- model" location="1298,855" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-30.0" distanceFromWire="11.999999999999991" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_ZIqtc9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.3/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1481,760" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Ygc24NckEeG9DKrtT72onw}" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="131,10" id="{UMLID=_Ya8EwNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1348,873" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- model" location="1344,915" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-311.0" distanceFromWire="-27.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_Ygc24dckEeG9DKrtT72onw}" multiplicityLabel="//@children.3/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2018,893" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.2 //@children.9/@sourceConnections.2 //@children.0/@sourceConnections.0" name="Room" location="1540,378" size="86,30" timstampe="7" stereotype="" id="{UMLID=_YWNVwdckEeG9DKrtT72onw,JavaID=cinemasystem/Room}" shortShow="true" runTimeClassModel="getRoomID(),Room(II),Room(),xRound,width,getNoOfSeats(),roomID,toString(),setNoOfSeats(I),noOfSeats,height,getNoOfSeats2(),clone(),getPreferredSize(),yRound,paint(Ljava.awt.Graphics;),setRoomID(I),y,x">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y8f5sNckEeG9DKrtT72onw}" source="//@children.4" target="//@children.12" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="10,0" id="{UMLID=_Y58U8tckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1523,355" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ rooms" location="1557,355" size="48,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="123,20" id="{UMLID=_Y8f5sdckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1292,137" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5r2QtckEeG9DKrtT72onw}" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="10,30" id="{UMLID=_Y23LwNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.1/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1523,415" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="rooms" location="1557,415" size="36,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="156,10" id="{UMLID=_Y5r2Q9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1422,681" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Zb-D9NckEeG9DKrtT72onw}" source="//@children.4" target="//@children.13" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="0,14" id="{UMLID=_ZYdc8NckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1513,399" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ rooms" location="1470,363" size="48,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-304.0" distanceFromWire="-20.999999999999652" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="122,24" id="{UMLID=_Zb-D9dckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="847,369" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YnmAsNckEeG9DKrtT72onw}" source="//@children.4" target="//@children.20" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="room" location="0,20" id="{UMLID=_YkuS4NckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1526,405" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- room" location="1504,420" size="37,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-229.0" distanceFromWire="30.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="75,0" id="{UMLID=_YnmAsdckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1032,577" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Yrr2gNckEeG9DKrtT72onw}" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="76,30" id="{UMLID=_YoCFkNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.4/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.4/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1623,415" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ rooms" location="1559,434" size="48,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-18.0" distanceFromWire="-33.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_Yrr2gdckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.4/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1834,520" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZEbGoNckEeG9DKrtT72onw}" source="//@children.4" target="//@children.17" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="room" location="0,10" id="{UMLID=_ZAb-gNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.5/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.5/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1526,365" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- room" location="1470,407" size="37,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-85.0" distanceFromWire="27.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="104,30" id="{UMLID=_ZEbGodckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.5/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1252,303" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX9GoNckEeG9DKrtT72onw}" source="//@children.4" target="//@children.14" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="room" location="0,10" id="{UMLID=_ZSXcANckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.6/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.6/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1526,365" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- room" location="1268,369" size="37,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-5.0" distanceFromWire="-11.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="99,30" id="{UMLID=_ZX9GodckEeG9DKrtT72onw}" multiplicityLabel="//@children.4/@sourceConnections.6/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1009,317" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.4/@sourceConnections.1" name="CinemaSystem" location="1259,664" size="156,30" timstampe="18" stereotype="" id="{UMLID=_Y2f_YNckEeG9DKrtT72onw,JavaID=cinemasystem/CinemaSystem}" shortShow="true" runTimeClassModel="movieCats,main([Ljava.lang.String;),model,init(),showingTime,showingTimes,movies,labels,movie,CinemaSystem(),period,roomModel,sTimes,rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5tEYtckEeG9DKrtT72onw}" source="//@children.5" target="//@children.15" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_Y5tEY9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1245,661" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movieCats" location="147,0" id="{UMLID=_Y2weENckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1064,985" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="movieCats" location="971,993" size="60,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="155.0" distanceFromWire="-56.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5sdUtckEeG9DKrtT72onw}" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="40,30" id="{UMLID=_Y5sdU9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1306,701" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="89,0" id="{UMLID=_Y2xFIdckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.1/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1285,863" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="model" location="1305,871" size="35,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="89.00000000000001" distanceFromWire="23.999999999999943" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_Y5tEYNckEeG9DKrtT72onw}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="20,30" id="{UMLID=_Y5tEYdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1286,701" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="showingTime" location="145,20" id="{UMLID=_Y2xsMdckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.2/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="698,691" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="showingTime" location="690,741" size="75,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="258.0" distanceFromWire="35.9999999999998" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_Y5r2QNckEeG9DKrtT72onw}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,29" id="{UMLID=_Y5r2QdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.3/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1245,670" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="showingTimes" location="135,10" id="{UMLID=_Y2yTQNckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.3/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.3/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="698,681" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="showingTimes" location="698,711" size="82,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5sdUNckEeG9DKrtT72onw}" source="//@children.5" target="//@children.20" targetEnd="//@children.5/@sourceConnections.4/@children.2" label="//@children.5/@sourceConnections.4/@children.0" sourceEnd="//@children.5/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_Y5sdUdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.4/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1276,641" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movies" location="85,20" id="{UMLID=_Y2y6UNckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.4/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.4/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1063,627" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="movies" location="1078,600" size="40,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="64.0" distanceFromWire="-12.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5tEZNckEeG9DKrtT72onw}" source="//@children.5" target="//@children.13" targetEnd="//@children.5/@sourceConnections.5/@children.2" label="//@children.5/@sourceConnections.5/@children.0" sourceEnd="//@children.5/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_Y5tEZdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.5/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1245,681" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movie" location="112,43" id="{UMLID=_Y21WkNckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.5/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.5/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="837,418" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="movie" location="797,448" size="33,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="86.0" distanceFromWire="16.00000000000003" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5sdVNckEeG9DKrtT72onw}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.6/@children.2" label="//@children.5/@sourceConnections.6/@children.0" sourceEnd="//@children.5/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_Y5sdVdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.6/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1276,701" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sTimes" location="145,10" id="{UMLID=_Y22ksNckEeG9DKrtT72onw}" multiplicityLabel="//@children.5/@sourceConnections.6/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.6/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="698,681" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="sTimes" location="990,665" size="42,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-31.999999999999996" distanceFromWire="-30.000000000000004" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.2 //@children.3/@sourceConnections.1 //@children.7/@sourceConnections.0" name="MovieController" location="2001,856" size="164,30" timstampe="9" stereotype="" id="{UMLID=_Ya0I8NckEeG9DKrtT72onw,JavaID=cinemasystem/MovieController}" shortShow="true" runTimeClassModel="MovieController(Lcinemasystem.MovieModel;Lcinemasystem.MovieAdd;),model,delMovieView,actionPerformed(Ljava.awt.event.ActionEvent;),MovieController(Lcinemasystem.MovieModel;Lcinemasystem.MovieDelete;),addMovieView">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.8 //@children.20/@sourceConnections.7 //@children.3/@sourceConnections.0" name="MovieDelete" location="1495,763" size="134,30" timstampe="15" stereotype="" id="{UMLID=_Ya9S4dckEeG9DKrtT72onw,JavaID=cinemasystem/MovieDelete}" shortShow="true" runTimeClassModel="getParentPanel(),parentPanel,setModel(Lcinemasystem.MovieModel;),cb,model,init(),movies,setId(I),setParentPanel(Lcinemasystem.MovieView;),id,update(Ljava.util.Observable;Ljava.lang.Object;),getId(),getMovies(),mainPanel,MovieDelete(LCollection;Lcinemasystem.MovieModel;Lcinemasystem.MovieView;),setMovies(LCollection;),serialVersionUID,getModel()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YgcP0NckEeG9DKrtT72onw}" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="delMovieView" location="134,20" id="{UMLID=_Ya8r09ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1636,790" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- delMovieView" location="1636,760" size="86,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_YgcP0dckEeG9DKrtT72onw}" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2018,833" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0 //@children.14/@sourceConnections.2 //@children.16/@sourceConnections.0" name="Seat" location="858,69" size="75,30" timstampe="9" stereotype="" id="{UMLID=_Yr4q0NckEeG9DKrtT72onw,JavaID=cinemasystem/Seat}" shortShow="true" runTimeClassModel="Seat(Ljava.lang.String;I),setSeatNo(Ljava.lang.String;),seatCategory,seatNo,clone(),getPreferredSize(),setSeatCategory(Lcinemasystem.SeatCategory;),getSeatCategory(),getSeatNo(),paint(Ljava.awt.Graphics;),toString(),setCategory(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.2" name="RoomDelete" location="1528,84" size="135,30" timstampe="9" stereotype="" id="{UMLID=_YVWaINckEeG9DKrtT72onw,JavaID=cinemasystem/RoomDelete}" shortShow="true" runTimeClassModel="getParentPanel(),parentPanel,cb,model,init(),getRooms(),getMainPanel(),setModel(Lcinemasystem.RoomModel;),setId(I),setRooms(LCollection;),setCb(Ljavax.swing.JComboBox;),id,update(Ljava.util.Observable;Ljava.lang.Object;),setMainPanel(Ljavax.swing.JPanel;),setParentPanel(Lcinemasystem.RoomView;),getId(),mainPanel,getCb(),RoomDelete(LCollection;Lcinemasystem.RoomModel;Lcinemasystem.RoomView;),getModel(),rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YkVRUtckEeG9DKrtT72onw}" source="//@children.9" target="//@children.12" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_YkVRU9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1545,121" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="parentPanel" location="123,10" id="{UMLID=_YgujsdckEeG9DKrtT72onw}" multiplicityLabel="//@children.9/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.9/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1292,127" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ parentPanel" location="1292,157" size="81,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YkVRUNckEeG9DKrtT72onw}" source="//@children.9" target="//@children.0" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="135,20" id="{UMLID=_YkVRUdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1670,81" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="10,0" id="{UMLID=_Ygvx0dckEeG9DKrtT72onw}" multiplicityLabel="//@children.9/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.9/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1858,243" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- model" location="1884,210" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="33.0" distanceFromWire="33.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YkUqQNckEeG9DKrtT72onw}" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.2/@children.2" label="//@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.9/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="54,30" id="{UMLID=_YkUqQdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1589,121" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rooms" location="42,0" id="{UMLID=_Ygw_8NckEeG9DKrtT72onw}" multiplicityLabel="//@children.9/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.9/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1596,362" size="20,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="124.99999999999999" distanceFromWire="24.000000000000075" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ rooms" location="1596,336" size="48,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="98.0" distanceFromWire="38.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.4 //@children.13/@sourceConnections.3 //@children.20/@sourceConnections.2" name="MovieAdd" location="1848,503" size="116,30" timstampe="7" stereotype="" id="{UMLID=_Ya-hANckEeG9DKrtT72onw,JavaID=cinemasystem/MovieAdd}" shortShow="true" runTimeClassModel="movieCats,catList,parentPanel,model,MovieAdd(LCollection;Lcinemasystem.MovieModel;Lcinemasystem.MovieView;LCollection;LCollection;),init(),roomList,movies,update(Ljava.util.Observable;Ljava.lang.Object;),txt1,txt2,txt5,rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YrrPcNckEeG9DKrtT72onw}" source="//@children.10" target="//@children.15" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_YrrPcdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1834,500" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movieCats" location="147,0" id="{UMLID=_Yn6JwNckEeG9DKrtT72onw}" multiplicityLabel="//@children.10/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.10/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1064,985" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ movieCats" location="961,966" size="72,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="209.0" distanceFromWire="-60.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YrrPctckEeG9DKrtT72onw}" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_YrrPc9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1834,500" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="121,0" id="{UMLID=_Yn-bMtckEeG9DKrtT72onw}" multiplicityLabel="//@children.10/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.10/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1338,863" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ model" location="1275,841" size="47,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="145.0" distanceFromWire="-32.99999999999994" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YgbowNckEeG9DKrtT72onw}" source="//@children.10" target="//@children.6" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="addMovieView" location="106,30" id="{UMLID=_Ya958dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.10/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1961,540" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- addMovieView" location="1861,551" size="90,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-140.0" distanceFromWire="-48.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_YgbowdckEeG9DKrtT72onw}" multiplicityLabel="//@children.10/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1987,873" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.7" name="Register" location="868,797" size="106,30" timstampe="9" stereotype="" id="{UMLID=_Yz8aoNckEeG9DKrtT72onw,JavaID=cinemasystem/Register}" shortShow="true" runTimeClassModel="username,init(),phoneNumber,Register(Lcinemasystem.MovieView;),address,mView,password">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.0/@sourceConnections.1 //@children.4/@sourceConnections.0" name="RoomView" location="1162,140" size="123,30" timstampe="7" stereotype="" id="{UMLID=_YWVRkdckEeG9DKrtT72onw,JavaID=cinemasystem/RoomView}" shortShow="true" runTimeClassModel="init(),roomModel,showAllRooms,RoomView(Lcinemasystem.RoomModel;LCollection;Lcinemasystem.MovieView;),addBtn,delBtn,mView,movieBtn,rooms">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y8hH0NckEeG9DKrtT72onw}" source="//@children.12" target="//@children.13" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_Y8hH0dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.12/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1148,137" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mView" location="112,0" id="{UMLID=_Y56fwdckEeG9DKrtT72onw}" multiplicityLabel="//@children.12/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.12/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="837,345" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ mView" location="772,345" size="51,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX9GptckEeG9DKrtT72onw}" source="//@children.12" target="//@children.14" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rv" location="0,20" id="{UMLID=_ZSVm0dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.12/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.12/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1148,167" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- rv" location="1138,137" size="17,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="99,0" id="{UMLID=_ZX9Gp9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.12/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1009,257" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3 //@children.4/@sourceConnections.2 //@children.12/@sourceConnections.0 //@children.5/@sourceConnections.5" name="MovieView" location="718,368" size="122,43" timstampe="7" stereotype="" id="{UMLID=_YWV4odckEeG9DKrtT72onw,JavaID=cinemasystem/MovieView}" shortShow="true" runTimeClassModel="getAddBtn(),movieCats,setLoginBtn(Ljavax.swing.JButton;),init(),getRegisterBtn(),movies,MovieView(LCollection;Lcinemasystem.MovieModel;LCollection;Lcinemasystem.RoomModel;LCollection;),movieModel,registerBtn,loginBtn,showAllMovie,username,getMovies(),roomModel,role,delBtn,addBtn,setDelBtn(Ljavax.swing.JButton;),rooms,getDelBtn(),getLoginBtn(),setRegisterBtn(Ljavax.swing.JButton;),setAddBtn(Ljavax.swing.JButton;),roomBtn,getMovieModel(),update(Ljava.util.Observable;Ljava.lang.Object;),setMovieModel(Lcinemasystem.MovieModel;),setShowAllMovie(Ljavax.swing.JPanel;),getShowAllMovie(),setMovies(LCollection;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Zb-D8tckEeG9DKrtT72onw}" source="//@children.13" target="//@children.15" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="112,43" id="{UMLID=_Zb-D89ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="816,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movieCats" location="0,10" id="{UMLID=_ZYUTANckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.13/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="883,995" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movieCats" location="835,1025" size="68,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Zb9c4tckEeG9DKrtT72onw}" source="//@children.13" target="//@children.20" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="112,43" id="{UMLID=_Zb9c49ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="816,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movies" location="0,10" id="{UMLID=_ZYWIMNckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.13/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="944,587" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ movies" location="912,617" size="52,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Zb9c4NckEeG9DKrtT72onw}" source="//@children.13" target="//@children.3" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="112,43" id="{UMLID=_Zb9c4dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="816,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movieModel" location="0,10" id="{UMLID=_ZYX9YNckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.13/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1196,873" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movieModel" location="1127,903" size="76,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YrrPdNckEeG9DKrtT72onw}" source="//@children.13" target="//@children.10" targetEnd="//@children.13/@sourceConnections.3/@children.2" label="//@children.13/@sourceConnections.3/@children.0" sourceEnd="//@children.13/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="parentPanel" location="122,33" id="{UMLID=_Yn90INckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="847,408" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ parentPanel" location="847,378" size="81,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_YrrPddckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1865,480" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZEafktckEeG9DKrtT72onw}" source="//@children.13" target="//@children.17" targetEnd="//@children.13/@sourceConnections.4/@children.2" label="//@children.13/@sourceConnections.4/@children.0" sourceEnd="//@children.13/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mv" location="122,10" id="{UMLID=_ZAaJUNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.4/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.4/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="847,355" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- mv" location="858,395" size="24,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-136.0" distanceFromWire="-25.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_ZEafk9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.4/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1179,303" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX8flNckEeG9DKrtT72onw}" source="//@children.13" target="//@children.14" targetEnd="//@children.13/@sourceConnections.5/@children.2" label="//@children.13/@sourceConnections.5/@children.0" sourceEnd="//@children.13/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mv" location="112,0" id="{UMLID=_ZSTxodckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.5/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.5/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="837,345" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- mv" location="799,345" size="24,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_ZX8fldckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.5/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="910,277" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Yv6PMtckEeG9DKrtT72onw}" source="//@children.13" target="//@children.16" targetEnd="//@children.13/@sourceConnections.6/@children.2" label="//@children.13/@sourceConnections.6/@children.0" sourceEnd="//@children.13/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mView" location="10,43" id="{UMLID=_Yr6gANckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.6/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.6/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="714,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- mView" location="745,426" size="47,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-35.0" distanceFromWire="40.99999999999999" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="116,10" id="{UMLID=_Yv6PM9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.6/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="655,535" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y1VhwNckEeG9DKrtT72onw}" source="//@children.13" target="//@children.11" targetEnd="//@children.13/@sourceConnections.7/@children.2" label="//@children.13/@sourceConnections.7/@children.0" sourceEnd="//@children.13/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mView" location="112,43" id="{UMLID=_Y0ChQdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.7/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.7/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="837,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ mView" location="689,420" size="51,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-181.0" distanceFromWire="-115.00000000000003" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_Y1VhwdckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.7/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="854,814" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZIrUgNckEeG9DKrtT72onw}" source="//@children.13" target="//@children.7" targetEnd="//@children.13/@sourceConnections.8/@children.2" label="//@children.13/@sourceConnections.8/@children.0" sourceEnd="//@children.13/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="parentPanel" location="112,43" id="{UMLID=_ZEq-QdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.8/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.8/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="837,418" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ parentPanel" location="690,448" size="81,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-136.0" distanceFromWire="-99.99999999999999" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_ZIrUgdckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.8/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1481,780" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZKYksNckEeG9DKrtT72onw}" source="//@children.13" target="//@children.18" targetEnd="//@children.13/@sourceConnections.9/@children.2" label="//@children.13/@sourceConnections.9/@children.0" sourceEnd="//@children.13/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mView" location="10,43" id="{UMLID=_ZJUNsdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.13/@sourceConnections.9/@children.1/@children.0" roleLabel="//@children.13/@sourceConnections.9/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="718,462" size="7,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-146.0" distanceFromWire="-6.99999999999974" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ mView" location="783,461" size="51,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-146.00000000000003" distanceFromWire="80.99999999999997" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="84,10" id="{UMLID=_ZKZLwNckEeG9DKrtT72onw}" multiplicityLabel="//@children.13/@sourceConnections.9/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="468,829" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.6 //@children.12/@sourceConnections.1 //@children.13/@sourceConnections.5 //@children.20/@sourceConnections.4 //@children.17/@sourceConnections.0" name="MapView" location="924,280" size="109,30" timstampe="9" stereotype="" id="{UMLID=_ZSAPoNckEeG9DKrtT72onw,JavaID=cinemasystem/MapView}" shortShow="true" runTimeClassModel="chosenSeats,sTime,init(),MapView(Lcinemasystem.Movie;Lcinemasystem.ShowingTime;Lcinemasystem.TimeView;Lcinemasystem.MovieView;Lcinemasystem.Room;Ljava.lang.String;),tv,mv,movie,MapView(Lcinemasystem.Room;Lcinemasystem.RoomView;),seats,period,rv,room">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_ZX9GpNckEeG9DKrtT72onw}" source="//@children.14" target="//@children.8" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,1" id="{UMLID=_ZX9GpdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.14/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="910,288" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="chosenSeats" location="74,30" id="{UMLID=_ZSO5INckEeG9DKrtT72onw}" multiplicityLabel="//@children.14/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.14/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="905,106" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ chosenSeats" location="935,91" size="88,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="45.0" distanceFromWire="-47.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX8fkNckEeG9DKrtT72onw}" source="//@children.14" target="//@children.2" targetEnd="//@children.14/@sourceConnections.1/@children.2" label="//@children.14/@sourceConnections.1/@children.0" sourceEnd="//@children.14/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_ZX8fkdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.14/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="910,277" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sTime" location="135,0" id="{UMLID=_ZSSjgdckEeG9DKrtT72onw}" multiplicityLabel="//@children.14/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.14/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="688,671" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- sTime" location="686,590" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="101.0" distanceFromWire="26.999999999999968" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX9GotckEeG9DKrtT72onw}" source="//@children.14" target="//@children.8" targetEnd="//@children.14/@sourceConnections.2/@children.2" label="//@children.14/@sourceConnections.2/@children.0" sourceEnd="//@children.14/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="4,0" id="{UMLID=_ZX9Go9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.14/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="935,257" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="seats" location="70,30" id="{UMLID=_ZSU_wNckEeG9DKrtT72onw}" multiplicityLabel="//@children.14/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.14/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="901,106" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- seats" location="935,106" size="40,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.20/@sourceConnections.0 //@children.10/@sourceConnections.0" name="MovieCategory" location="910,1008" size="157,30" timstampe="7" stereotype="" id="{UMLID=_YbSDAdckEeG9DKrtT72onw,JavaID=cinemasystem/MovieCategory}" shortShow="true" runTimeClassModel="categoryName,setCategoryName(Ljava.lang.String;),getCategoryName(),categoryID,setCategoryID(I),getCategoryID(),MovieCategory(ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.6 //@children.20/@sourceConnections.6 //@children.2/@sourceConnections.0" name="TicketInfo" location="532,518" size="116,30" timstampe="9" stereotype="" id="{UMLID=_Yrvg4NckEeG9DKrtT72onw,JavaID=cinemasystem/TicketInfo}" shortShow="true" runTimeClassModel="chosenSeats,sTime,init(),movie,mView,TicketInfo(LCollection;Lcinemasystem.Movie;Lcinemasystem.MovieView;Ljava.lang.String;Lcinemasystem.ShowingTime;),period">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Yv5oINckEeG9DKrtT72onw}" source="//@children.16" target="//@children.8" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="106,0" id="{UMLID=_Yv5oIdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.16/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="624,495" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="chosenSeats" location="0,20" id="{UMLID=_Yr4DwNckEeG9DKrtT72onw}" multiplicityLabel="//@children.16/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.16/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="831,96" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- chosenSeats" location="767,66" size="84,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.5 //@children.13/@sourceConnections.4 //@children.20/@sourceConnections.3" name="TimeView" location="1162,266" size="114,30" timstampe="9" stereotype="" id="{UMLID=_ZASNgNckEeG9DKrtT72onw,JavaID=cinemasystem/TimeView}" shortShow="true" runTimeClassModel="getMv(),setMv(Lcinemasystem.MovieView;),init(),TimeView(Lcinemasystem.Movie;Lcinemasystem.MovieView;Lcinemasystem.Room;),getRoom(),setRoom(Lcinemasystem.Room;),mv,movie,getRadioButton(Ljavax.swing.ButtonGroup;),getMovie(),setMovie(Lcinemasystem.Movie;),room">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX8fktckEeG9DKrtT72onw}" source="//@children.17" target="//@children.14" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tv" location="0,22" id="{UMLID=_ZSTKkdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.17/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.17/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1148,295" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- tv" location="1138,265" size="17,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="109,8" id="{UMLID=_ZX8fk9ckEeG9DKrtT72onw}" multiplicityLabel="//@children.17/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1040,265" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.9" name="Login" location="377,812" size="84,30" timstampe="9" stereotype="" id="{UMLID=_ZJOuINckEeG9DKrtT72onw,JavaID=cinemasystem/Login}" shortShow="true" runTimeClassModel="setPassword(Ljavax.swing.JTextField;),Login(Lcinemasystem.MovieView;),username,getmView(),init(),getPassword(),setUsername(Ljavax.swing.JTextField;),getUsername(),mView,password,setmView(Lcinemasystem.MovieView;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RoomController" location="1722,154" size="165,30" timstampe="9" stereotype="" id="{UMLID=_YQ27sNckEeG9DKrtT72onw,JavaID=cinemasystem/RoomController}" shortShow="true" runTimeClassModel="model,addRoomView,actionPerformed(Ljava.awt.event.ActionEvent;),delRoomView,RoomController(Lcinemasystem.RoomModel;Lcinemasystem.RoomAdd;),RoomController(Lcinemasystem.RoomModel;Lcinemasystem.RoomDelete;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YaD7ANckEeG9DKrtT72onw}" source="//@children.19" target="//@children.0" targetEnd="//@children.19/@sourceConnections.0/@children.2" label="//@children.19/@sourceConnections.0/@children.0" sourceEnd="//@children.19/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="152,30" id="{UMLID=_YaD7AdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.19/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1881,191" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="12,0" id="{UMLID=_YVJl0NckEeG9DKrtT72onw}" multiplicityLabel="//@children.19/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.19/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1860,243" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- model" location="1884,238" size="43,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="21.0" distanceFromWire="31.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YaCs4NckEeG9DKrtT72onw}" source="//@children.19" target="//@children.1" targetEnd="//@children.19/@sourceConnections.1/@children.2" label="//@children.19/@sourceConnections.1/@children.0" sourceEnd="//@children.19/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_YaCs4dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.19/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1739,131" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="addRoomView" location="117,20" id="{UMLID=_YVUk8tckEeG9DKrtT72onw}" multiplicityLabel="//@children.19/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.19/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1464,77" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- addRoomView" location="1464,47" size="91,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YaDT8NckEeG9DKrtT72onw}" source="//@children.19" target="//@children.9" targetEnd="//@children.19/@sourceConnections.2/@children.2" label="//@children.19/@sourceConnections.2/@children.0" sourceEnd="//@children.19/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_YaDT8dckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.19/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1708,171" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="delRoomView" location="125,30" id="{UMLID=_YVVzEdckEeG9DKrtT72onw}" multiplicityLabel="//@children.19/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.19/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1660,121" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- delRoomView" location="1553,140" size="87,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-9.0" distanceFromWire="56.00000000000001" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3 //@children.5/@sourceConnections.4 //@children.13/@sourceConnections.1" name="Movie" location="971,600" size="85,30" timstampe="7" stereotype="" id="{UMLID=_YWTcYtckEeG9DKrtT72onw,JavaID=cinemasystem/Movie}" shortShow="true" runTimeClassModel="showingTime,getName(),setPeriod(LCollection;),getPicture(),height,Movie(ILjava.lang.String;ILCollection;LCollection;Ljava.lang.String;Lcinemasystem.MovieCategory;Lcinemasystem.Room;),getRoom(),name,getPreferredSize(),getDuration(),movieID,movieCategory,getMovieCategory(),setName(Ljava.lang.String;),width,getShowingTime(),getMovieID(),setDuration(I),period,picture,setPicture(Ljava.lang.String;),Movie(),duration,setShowingTime(LCollection;),setMovieID(I),clone(),setRoom(Lcinemasystem.Room;),getPeriod(),paint(Ljava.awt.Graphics;),setMovieCategory(Lcinemasystem.MovieCategory;),y,x,room">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YnlZotckEeG9DKrtT72onw}" source="//@children.20" target="//@children.15" targetEnd="//@children.20/@sourceConnections.0/@children.2" label="//@children.20/@sourceConnections.0/@children.0" sourceEnd="//@children.20/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="42,30" id="{UMLID=_YnlZo9ckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1020,637" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movieCategory" location="103,0" id="{UMLID=_YkpaYdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.20/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="999,985" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movieCategory" location="1032,966" size="93,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="155.0" distanceFromWire="65.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YnlZoNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.2" targetEnd="//@children.20/@sourceConnections.1/@children.2" label="//@children.20/@sourceConnections.1/@children.0" sourceEnd="//@children.20/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_YnlZodckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="957,597" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="showingTime" location="135,0" id="{UMLID=_YkqogtckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.20/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="688,671" size="20,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- showingTime" location="560,671" size="83,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="22.0" distanceFromWire="-80.0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_YrqoYNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.10" targetEnd="//@children.20/@sourceConnections.2/@children.2" label="//@children.20/@sourceConnections.2/@children.0" sourceEnd="//@children.20/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movies" location="85,10" id="{UMLID=_YoA3cNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1063,587" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ movies" location="1410,570" size="52,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-21.0" distanceFromWire="32.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_YrqoYdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1865,540" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZEafkNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.17" targetEnd="//@children.20/@sourceConnections.3/@children.2" label="//@children.20/@sourceConnections.3/@children.0" sourceEnd="//@children.20/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movie" location="75,0" id="{UMLID=_ZAbXcNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1053,577" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movie" location="1068,462" size="41,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-28.0" distanceFromWire="-42.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_ZEafkdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1148,263" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZX74gNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.14" targetEnd="//@children.20/@sourceConnections.4/@children.2" label="//@children.20/@sourceConnections.4/@children.0" sourceEnd="//@children.20/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movie" location="30,0" id="{UMLID=_ZSUYsdckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.4/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.4/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="987,577" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movie" location="1031,551" size="41,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-104.00000000000001" distanceFromWire="-50.99999999999994" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="77,30" id="{UMLID=_ZX74gdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.4/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1008,317" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZMDYoNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.3" targetEnd="//@children.20/@sourceConnections.5/@children.2" label="//@children.20/@sourceConnections.5/@children.0" sourceEnd="//@children.20/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movies" location="75,30" id="{UMLID=_ZKgggNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.5/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.5/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1053,637" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movies" location="1020,707" size="48,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-48.0" distanceFromWire="-2.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_ZMDYodckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.5/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1196,903" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Yv6PMNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.16" targetEnd="//@children.20/@sourceConnections.6/@children.2" label="//@children.20/@sourceConnections.6/@children.0" sourceEnd="//@children.20/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movie" location="0,10" id="{UMLID=_Yr548NckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.6/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.6/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="957,587" size="7,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- movie" location="772,583" size="41,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="12.0" distanceFromWire="-19.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="106,30" id="{UMLID=_Yv6PMdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.6/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="624,555" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ZIqtcNckEeG9DKrtT72onw}" source="//@children.20" target="//@children.7" targetEnd="//@children.20/@sourceConnections.7/@children.2" label="//@children.20/@sourceConnections.7/@children.0" sourceEnd="//@children.20/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="movies" location="85,20" id="{UMLID=_ZEtagNckEeG9DKrtT72onw}" attachSource="true" multiplicityLabel="//@children.20/@sourceConnections.7/@children.1/@children.0" roleLabel="//@children.20/@sourceConnections.7/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1063,627" size="20,16" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ movies" location="1066,585" size="52,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-188.0" distanceFromWire="27.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_ZIqtcdckEeG9DKrtT72onw}" multiplicityLabel="//@children.20/@sourceConnections.7/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1512,740" size="7,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="4" showScope="InPackage" properties="wireOptions=3"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="1092,154" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
